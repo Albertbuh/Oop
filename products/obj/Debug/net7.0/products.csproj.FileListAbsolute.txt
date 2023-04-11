@@ -1,0 +1,12 @@
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.csproj.AssemblyReference.cache
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.GeneratedMSBuildEditorConfig.editorconfig
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.AssemblyInfoInputs.cache
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.AssemblyInfo.cs
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.csproj.CoreCompileInputs.cache
+/home/albertbuh/nvim/sharp/oop/products/bin/Debug/net7.0/products.deps.json
+/home/albertbuh/nvim/sharp/oop/products/bin/Debug/net7.0/products.dll
+/home/albertbuh/nvim/sharp/oop/products/bin/Debug/net7.0/products.pdb
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.dll
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/refint/products.dll
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/products.pdb
+/home/albertbuh/nvim/sharp/oop/products/obj/Debug/net7.0/ref/products.dll
