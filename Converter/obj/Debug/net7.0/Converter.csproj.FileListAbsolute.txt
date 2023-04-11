@@ -1,0 +1,12 @@
+/home/albertbuh/nvim/sharp/oop/Converter/bin/Debug/net7.0/Converter.deps.json
+/home/albertbuh/nvim/sharp/oop/Converter/bin/Debug/net7.0/Converter.dll
+/home/albertbuh/nvim/sharp/oop/Converter/bin/Debug/net7.0/Converter.pdb
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.csproj.AssemblyReference.cache
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.GeneratedMSBuildEditorConfig.editorconfig
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.AssemblyInfoInputs.cache
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.AssemblyInfo.cs
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.csproj.CoreCompileInputs.cache
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.dll
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/refint/Converter.dll
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.pdb
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/ref/Converter.dll
