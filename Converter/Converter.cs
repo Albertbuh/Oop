@@ -11,7 +11,8 @@ public class Converter
     PdfWriter writer = new PdfWriter(path);
     PdfDocument pdf = new PdfDocument(writer);
     Document doc = new Document(pdf);
-    Paragraph pdf_header = new Paragraph(header).SetTextAlignment(TextAlignment.CENTER).SetFontSize(24);
+    DateTime date = DateTime.Today;
+    Paragraph pdf_header = new Paragraph(header + $"\n({date.ToString("U")})").SetTextAlignment(TextAlignment.CENTER).SetFontSize(24).SetBold();
     doc.Add(pdf_header);
     Paragraph p = new Paragraph(text).SetTextAlignment(TextAlignment.CENTER);
     doc.Add(p);
