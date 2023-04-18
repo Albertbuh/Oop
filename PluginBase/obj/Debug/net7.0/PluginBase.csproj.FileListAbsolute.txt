@@ -1,0 +1,12 @@
+/home/albertbuh/nvim/sharp/oop/PluginBase/bin/Debug/net7.0/PluginBase.deps.json
+/home/albertbuh/nvim/sharp/oop/PluginBase/bin/Debug/net7.0/PluginBase.dll
+/home/albertbuh/nvim/sharp/oop/PluginBase/bin/Debug/net7.0/PluginBase.pdb
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.csproj.AssemblyReference.cache
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.GeneratedMSBuildEditorConfig.editorconfig
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.AssemblyInfoInputs.cache
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.AssemblyInfo.cs
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.csproj.CoreCompileInputs.cache
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.dll
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/refint/PluginBase.dll
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/PluginBase.pdb
+/home/albertbuh/nvim/sharp/oop/PluginBase/obj/Debug/net7.0/ref/PluginBase.dll

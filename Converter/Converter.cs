@@ -1,5 +1,4 @@
-﻿namespace Converter;
-using iText.Kernel.Pdf;
+﻿using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
 using iText.Layout.Properties;
@@ -7,20 +6,56 @@ using System.Xml.Linq;
 using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using PluginBase;
 
-public class Converter
+public class Converter : ICommand
 {
-  public static void ConvertToPdf(string header, string text, string path)
+  public string Name { get => "Converter";}
+  public string Description { get => "Convert (Pdf, xml) ";}
+
+
+  public void Execute(params object[] args)
   {
-    PdfWriter writer = new PdfWriter(path);
+    int op = (int)args[0];
+    switch(op)
+    {
+      case 1:
+        if(args.Length >= 4)
+        {
+          string header = (string)args[1];
+          string TextToConvert = (string)args[2];
+          string PdfPath = (string)args[3];
+          ConvertToPdf(header, TextToConvert, PdfPath);
+        }
+        break;
+      case 2:
+        if(args.Length >= 3)
+        {
+          string jsonFileName = (string)args[1];
+          string filename = (string)args[2];
+          JsonToXml(jsonFileName, filename);
+        }
+        break;
+      default:
+        Console.WriteLine("Fking converter");
+        break;
+    }
+  }
+
+
+
+  public static void ConvertToPdf(string header, string text, string PdfPath)
+  {
+    PdfWriter writer = new PdfWriter(PdfPath);
     PdfDocument pdf = new PdfDocument(writer);
     Document doc = new Document(pdf);
-    DateTime date = DateTime.Today;
-    Paragraph pdf_header = new Paragraph(header + $"\n({date.ToString("U")})").SetTextAlignment(TextAlignment.CENTER).SetFontSize(24).SetBold();
+    var date = DateTime.Today;
+    Paragraph pdf_header = new Paragraph(header + $"\n({date.ToString("D")})").SetTextAlignment(TextAlignment.CENTER).SetFontSize(24).SetBold();
     doc.Add(pdf_header);
     Paragraph p = new Paragraph(text).SetTextAlignment(TextAlignment.CENTER);
     doc.Add(p);
     doc.Close();
+    Console.WriteLine("Pdf converterd...");
   }
 
   public static void ConvertToPdf(string text, string path)

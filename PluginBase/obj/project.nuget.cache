@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fjXkuriz2ZIfzsdXcqk8ymfcY3d96wr7ANCkuJl1QMtgHOgopXVkOJlQ43n3+Uk6xDB3EY4YJvpZFJfxyfrS2w==",
+  "success": true,
+  "projectFilePath": "/home/albertbuh/nvim/sharp/oop/PluginBase/PluginBase.csproj",
+  "expectedPackageFiles": [
+    "/home/albertbuh/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
