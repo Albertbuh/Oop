@@ -43,6 +43,7 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "itext7": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[7.2.5, )"
             },

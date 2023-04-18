@@ -10,3 +10,7 @@
 /home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/refint/Converter.dll
 /home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.pdb
 /home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/ref/Converter.dll
+/home/albertbuh/nvim/sharp/oop/Converter/bin/Debug/net7.0/Converter.runtimeconfig.json
+/home/albertbuh/nvim/sharp/oop/Converter/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.csproj.CopyComplete
+/home/albertbuh/nvim/sharp/oop/Converter/obj/Debug/net7.0/Converter.genruntimeconfig.cache

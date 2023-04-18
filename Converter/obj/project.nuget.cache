@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K+ebA/5Qqqa8xIa5qwCebKEf2BX3NeXF09kpzhcTNZqY8IadhvIHSh0MPkxZ4RJ5ljvKxaG390KNJXLHoGVJ1g==",
+  "dgSpecHash": "yCD0Ms5sdl8ysU2KUfT84wK3aQo9YYhTdH0PJG+BHXcNqASgmNIcb4v5/x1XDfR12LBJLVTa3Z53R+fq1S4oqg==",
   "success": true,
   "projectFilePath": "/home/albertbuh/nvim/sharp/oop/Converter/Converter.csproj",
   "expectedPackageFiles": [
