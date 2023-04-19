@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UMZYnxZGe42QhuiI6PpG2DdoxlJCruThAFxHBdJEjSmpBscX2W3ewWSd22NKZkJNNtDvMBUg8jidNrK+3a84kA==",
+  "success": true,
+  "projectFilePath": "/home/albertbuh/nvim/sharp/oop/HelloPlugin/HelloPlugin.csproj",
+  "expectedPackageFiles": [
+    "/home/albertbuh/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

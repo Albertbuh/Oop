@@ -1,0 +1,14 @@
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/bin/Debug/net7.0/HelloPlugin.deps.json
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/bin/Debug/net7.0/HelloPlugin.runtimeconfig.json
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/bin/Debug/net7.0/HelloPlugin.dll
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/bin/Debug/net7.0/HelloPlugin.pdb
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.csproj.AssemblyReference.cache
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.GeneratedMSBuildEditorConfig.editorconfig
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.AssemblyInfoInputs.cache
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.AssemblyInfo.cs
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.csproj.CoreCompileInputs.cache
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.dll
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/refint/HelloPlugin.dll
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.pdb
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/HelloPlugin.genruntimeconfig.cache
+/home/albertbuh/nvim/sharp/oop/HelloPlugin/obj/Debug/net7.0/ref/HelloPlugin.dll
