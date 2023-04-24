@@ -1,0 +1,14 @@
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/bin/Debug/net7.0/ElGamalCipher.deps.json
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/bin/Debug/net7.0/ElGamalCipher.dll
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/bin/Debug/net7.0/ElGamalCipher.pdb
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.csproj.AssemblyReference.cache
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.GeneratedMSBuildEditorConfig.editorconfig
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.AssemblyInfoInputs.cache
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.AssemblyInfo.cs
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.csproj.CoreCompileInputs.cache
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.dll
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/refint/ElGamalCipher.dll
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.pdb
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ref/ElGamalCipher.dll
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/bin/Debug/net7.0/ElGamalCipher.runtimeconfig.json
+/home/albertbuh/nvim/sharp/oop/ElGamalCipher/obj/Debug/net7.0/ElGamalCipher.genruntimeconfig.cache

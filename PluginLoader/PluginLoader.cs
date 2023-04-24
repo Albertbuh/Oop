@@ -48,12 +48,7 @@ public class PluginLoader
   {
     Console.WriteLine("Start execution...");
     Console.WriteLine("Commands:");
-    /* commands = pluginPaths.SelectMany((string pluginPath)=> 
-    {
-      Assembly pluginAssembly = LoadPlugin(pluginPath);
-      return CreateCommands(pluginAssembly);
-    }); */
-    try
+     try
     {
       foreach(string path in pluginPaths)
       {
@@ -71,33 +66,36 @@ public class PluginLoader
     {
       Console.WriteLine("Error in assembly plugings (check your filepath one more time):\n" + ex.Message);
     }
-
-    /* foreach(ICommand command in commands)
-    {
-      Console.WriteLine($"{command.Name}\t -\t {command.Description}");
-    } */
-
   }
 
 
-#nullable disable
-  private static Assembly LoadPlugin(string relativePath)
+  private static Assembly LoadPlugin(string DllPath)
   {
-    string root = Path.GetFullPath(Path.Combine(
-          Path.GetDirectoryName(
-            Path.GetDirectoryName( 
-              Path.GetDirectoryName(
-                Path.GetDirectoryName( 
-                  Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))))));
-    string pluginLocation = Path.GetFullPath(Path.Combine(root, relativePath.Replace('\\', Path.DirectorySeparatorChar)));
-    // Console.WriteLine(pluginLocation);
-    Console.WriteLine($"Loading commands from: {pluginLocation}");
+    string? GetFolderPath(string path, string folder_name)
+    {
+      try
+      {
+        return Directory.GetDirectories(path).Where((string folder) => folder.Contains(folder_name)).ToList()[0];
+      }
+      catch
+      {
+        return null;
+      }
+    }
+
+    string homeDir = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+    string plug_name = DllPath.Substring(DllPath.LastIndexOf("/")+1) + ".dll";
+    string bin = GetFolderPath(Path.Combine(homeDir, DllPath), "bin") ?? "";
+    string debug = GetFolderPath(bin, "Debug") ?? "";
+    string net = GetFolderPath(debug, "net") ?? "";
+    Console.WriteLine(net);
+    if(!net.Equals(""))
+      DllPath = Directory.GetFiles(net).Where((string file) => file.Contains(plug_name)).ToList()[0];
+    Console.WriteLine($"Loading commands from: {DllPath}");
     Console.WriteLine("...");
-    PluginLoadContext context = new PluginLoadContext(pluginLocation);
-    return context.LoadFromAssemblyName(new AssemblyName(Path.GetFileNameWithoutExtension(pluginLocation)));
-  
+    PluginLoadContext context = new PluginLoadContext(DllPath);
+    return context.LoadFromAssemblyName(new AssemblyName(Path.GetFileNameWithoutExtension(DllPath)));
   }
-#nullable restore
 
   private static List<ICommand?> CreateCommands(Assembly assembly)
   {
@@ -106,7 +104,6 @@ public class PluginLoader
     {
       if(typeof(ICommand).IsAssignableFrom(type))
       {
-        // ICommand? result = Activator.CreateInstance(type) as ICommand;
         result.Add(Activator.CreateInstance(type) as ICommand);
       }
     }

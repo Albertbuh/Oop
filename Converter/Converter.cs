@@ -36,6 +36,17 @@ public class Converter : ICommand
           JsonToXml(jsonFileName, filename);
         }
         break;
+      case 3:
+        if(args.Length >= 3)
+        {
+          string? xmlFileName = args[1] as string;
+          string? jsonFileName = args[2] as string;
+          if(xmlFileName != null && jsonFileName != null)
+            XmlToJson(xmlFileName, jsonFileName);
+          else
+            throw new InvalidOperationException("Not string send to filename");
+        }
+        break;
       default:
         Console.WriteLine("Fking converter");
         break;
@@ -78,6 +89,7 @@ public class Converter : ICommand
 
       StringBuilder strXml = new StringBuilder(_defaultdeclaration.ToString() + "\n");
       XDocument xml = new XDocument();
+      strXml.AppendLine("<elements>");
 
       foreach(var item in ja)
       {
@@ -89,10 +101,19 @@ public class Converter : ICommand
         xml = XDocument.Parse(elem.OuterXml);
         strXml.AppendLine(xml.ToString());
      }
+      strXml.AppendLine("</elements>");
       Console.WriteLine(strXml.ToString());
       if(filename.IndexOf(".xml") < 0)
         filename = filename + ".xml";
       File.WriteAllText(filename, strXml.ToString());
     }
 #nullable restore
+
+    public static void XmlToJson(string xmlFileName, string jsonFileName)
+    {
+      var doc = XDocument.Parse(File.ReadAllText(xmlFileName));
+      string text = JsonConvert.SerializeXNode(doc, Formatting.Indented);
+      text = text.Substring(text.IndexOf("["));
+      File.WriteAllText(jsonFileName, text);
+    }
 }

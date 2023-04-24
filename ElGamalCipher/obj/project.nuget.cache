@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WAQajhVpZLgkNmdm55eL3B086RtmPIEYWev501YPSGRTHaZMDQ8lbn+LQ5a6VU7XOI/lMcnUGqsgFY7+hPDGfA==",
+  "success": true,
+  "projectFilePath": "/home/albertbuh/nvim/sharp/oop/ElGamalCipher/ElGamalCipher.csproj",
+  "expectedPackageFiles": [
+    "/home/albertbuh/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
